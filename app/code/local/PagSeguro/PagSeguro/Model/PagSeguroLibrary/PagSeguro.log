@@ -1,0 +1,346 @@
+{2014/05/08 12:21:06} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '12',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:21:09} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '12',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}056043436E6EE6EDD44A5F88776DE943 
+{2014/05/08 12:29:17} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '13',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:29:19} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '13',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}7D38C8E8B7B7E4E114461FBDDE4BAA3C 
+{2014/05/08 12:33:46} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:33:48} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}B62792E3EDED9895549B4F968CC03E82 
+{2014/05/08 12:34:45} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:34:46} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}6D27592F3737E3ADD465CF8A57A9DDA0 
+{2014/05/08 12:35:30} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:35:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}3928C6607373AF8AA46B7F9C942034BD 
+{2014/05/08 12:39:10} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:39:11} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}751FA9D54C4CD4DCC40EEFB47B4D8026 
+{2014/05/08 12:40:01} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:40:02} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}528A27DBBCBCB61EE41FFFA79247F038 
+{2014/05/08 12:41:33} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:41:34} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '14',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}BA69A71BFDFD0A36642CAF90768441C3 
+{2014/05/08 12:44:06} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '15',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:44:07} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '15',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}0DE78924F7F78C5CC4523FB4C51BB6F2 
+{2014/05/08 12:46:39} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '16',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 12:46:40} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '16',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}4D0A6FD79E9E516554D1FF93D7E362E5 
+{2014/05/08 13:15:56} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '17',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 13:15:59} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '17',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}37500DCFAAAA384554AC2FB29172F2F0 
+{2014/05/08 13:20:22} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '18',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 13:20:24} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '18',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}456EA86BFAFAA37CC4EAAFAB36A1F81A 
+{2014/05/08 13:22:50} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '18',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 13:22:51} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '18',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}6794B56D3333A8CAA45E8FA5714B051F 
+{2014/05/08 13:31:04} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '19',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 13:31:08} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '19',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}18149153F5F5C68EE4B81F816078D02F 
+{2014/05/08 13:46:51} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '20',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 13:46:57} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '20',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}87DFFA63A4A4489884CE8F8FDC6BE482 
+{2014/05/08 13:47:37} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '20',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 13:47:38} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '20',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}33FFA7ACF7F7E51994D48F9F83515651 
+{2014/05/08 14:11:56} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '21',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 14:12:01} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '21',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}80D90121D9D9CB733473DF8D382D937B 
+{2014/05/08 14:17:46} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '21',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 14:17:49} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '21',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}D073902B2121E2F0041BBFB3EB926335 
+{2014/05/08 14:27:57} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '22',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 14:27:59} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '22',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}187998C40000B03EE46C4FB12FDACE3B 
+{2014/05/08 15:27:00} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '24',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 15:27:01} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '24',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - error [HTTP 401] - UNAUTHORIZED  
+{2014/05/08 15:33:12} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '25',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 15:33:12} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '25',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - error [HTTP 401] - UNAUTHORIZED  
+{2014/05/08 17:23:08} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '26',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 17:23:30} [Error] Exception: CURL can't connect: Connection timed out after 20000 milliseconds 
+{2014/05/08 17:31:45} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '27',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 17:31:47} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '27',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}651A2785B2B2C37994AFBFB585E3A506 
+{2014/05/08 18:32:58} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '28',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 18:33:19} [Error] Exception: CURL can't connect: Connection timed out after 20047 milliseconds 
+{2014/05/08 18:35:49} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '29',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 18:35:52} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '29',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}175C7CE71515A98114B58F8421F633DD 
+{2014/05/08 18:36:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '29',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 18:36:32} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '29',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}B349F758E6E65EC1147EDF8F849762C6 
+{2014/05/08 18:39:48} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '30',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 18:39:51} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '30',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}B603D8D5F3F325F884197FB57C265B7E 
+{2014/05/08 18:49:45} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '31',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 18:49:46} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '31',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}D28F30FFEBEB80B00458DF8B5D828B29 
+{2014/05/08 18:58:46} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '32',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 18:58:48} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '32',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}16EDF6B0C8C8ACE334C86F82952582B8 
+{2014/05/08 19:04:44} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '33',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:04:46} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '33',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}90E3E43EFCFCD40444727FA0B19D5B63 
+{2014/05/08 19:09:32} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '33',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:09:33} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '33',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}EFE7CEDB939386FAA4B61FBDBAD5C20B 
+{2014/05/08 19:17:16} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '33',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:17:18} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '33',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}0793B3B35A5AD382248B8F9049972439 
+{2014/05/08 19:33:11} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '34',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:33:13} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '34',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - error [HTTP 400] - BAD_REQUEST 0 [10044] - Invalid value for notification URL : http://127.0.0.1/magento18/index.php/pagseguro/notification/send/1 [11007] - redirectURL invalid value: http://127.0.0.1/magento18/index.php/pagseguro/payment/finish/ 
+{2014/05/08 19:36:21} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '35',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:36:23} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '35',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}8021646ED2D2A89334FE9FA542CD824A 
+{2014/05/08 19:38:49} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '36',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:39:59} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '36',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - error [HTTP 500] - INTERNAL_SERVER_ERROR  
+{2014/05/08 19:53:38} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '37',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:53:41} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '37',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - error [HTTP 400] - BAD_REQUEST 0 [10044] - Invalid value for notification URL : http://127.0.0.1/magento18/index.php/pagseguro/notification/send/1 [11007] - redirectURL invalid value: http://127.0.0.1/magento18/index.php/pagseguro/payment/finish/ 
+{2014/05/08 19:57:36} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '38',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 19:57:39} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '38',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}FA4F22A3EAEA27E774BD3FBA4A97F845 
+{2014/05/08 20:13:11} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '39',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 20:13:14} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '39',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}3C8E5CFEC9C98F1DD4332F81877BB7DC 
+{2014/05/08 20:17:18} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '40',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 20:17:19} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '40',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}FA88555B9292A06FF4DABF981F34F13A 
+{2014/05/08 20:22:14} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '41',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 20:22:15} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '41',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}7F31EA15969692411470CFBFAF60E742 
+{2014/05/08 20:36:13} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '42',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/08 20:36:15} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '42',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}5E611F2DA0A0ED3AA4ACDFA7861A8778 
+{2014/05/09 12:30:01} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '43',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/09 12:30:05} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '43',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}8D5981374545D4F884308F808AD24371 
+{2014/05/09 12:35:54} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '44',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/09 12:35:58} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '44',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - end {1}F401DC007F7FAEB8847A3F8A6FBF2F3D 
+{2014/05/09 12:40:43} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '45',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - begin 
+{2014/05/09 12:40:44} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => '45',
+  'SenderEmail' => 'edison.junior@s2it.com.br',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11017] - shippingPostalCode invalid Value: 14.800-040 
