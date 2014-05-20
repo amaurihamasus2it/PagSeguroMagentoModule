@@ -1,0 +1,2 @@
+PagSeguroMagentoModule
+======================
