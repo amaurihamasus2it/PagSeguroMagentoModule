@@ -69,15 +69,15 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
      */
     public function requestAction()
     {
-	
-	
+    
+    
         $Order = $this->getOrder(); //Order Data
         
         $PagSeguroPaymentModel = $this->getPagSeguroPaymentModel();
         
         $enabledOSC = false;
         $fileOSC = scandir(getcwd().'/app/code/local/DeivisonArthur');
-		
+        
         if($fileOSC) {
             $enabledOSC = Mage::helper('onepagecheckout')->isOnepageCheckoutEnabled();
         }
@@ -94,30 +94,30 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
                 $PagSeguroPaymentModel->setOrder($Order);
                 
                 $checkout = $this->getRedirectCheckout();
-				
+                
                 if($checkout == 'LIGHTBOX') {
-                	$retorno = $PagSeguroPaymentModel->getRedirectPaymentHtml($Order);
-					$this->_redirectUrl($retorno);
+                    $retorno = $PagSeguroPaymentModel->getRedirectPaymentHtml($Order);
+                    $this->_redirectUrl($retorno);
                 } else {
-                	$this->_redirectUrl($PagSeguroPaymentModel->getRedirectPaymentHtml($Order));
+                    $this->_redirectUrl($PagSeguroPaymentModel->getRedirectPaymentHtml($Order));
                 }
-				
-				//after verify if the order was created, instantiates the sendEmail() method 
-				$this->sendEmail();
+                
+                //after verify if the order was created, instantiates the sendEmail() method 
+                $this->sendEmail();
                 
             } catch (Exception $ex) {
                 Mage::log($ex->getMessage());
                 Mage::getSingleton('core/session')->addError(self::MENSAGEM);
                 if($checkout == 'PADRAO') {
-                	$this->_redirectUrl(Mage::getUrl() . $feedback);
+                    $this->_redirectUrl(Mage::getUrl() . $feedback);
                 }
                 $this->_canceledStatus($Order);
             }
             
         } else {
-        	Mage::getSingleton('core/session/canceled')->addError(self::MENSAGEM);
+            Mage::getSingleton('core/session/canceled')->addError(self::MENSAGEM);
             if($checkout == 'PADRAO') {
-            	$this->_redirectUrl(Mage::getUrl() . $feedback);
+                $this->_redirectUrl(Mage::getUrl() . $feedback);
             }
             $this->_canceledStatus($Order);
         }
@@ -126,29 +126,29 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
         
     }
 
-	/**
-	 * Send a e-mail with shopping order.
-	 */
-	private function sendEmail()
-	{
-		
-		$order = new Mage_Sales_Model_Order();
-		$incrementId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
-		$order->loadByIncrementId($incrementId);
-		try
-		{
-		    $order->sendNewOrderEmail();
-		} catch (Exception $ex) {
-			die($ex);
-		}
-		
-	}
-	
-	/**
-	 * returns PagSeguro checkout configuration
-	 * @return CheckoutStatus = 'LIGHTBOX' or 'PADRÃO'
-	 */
-	private function getRedirectCheckout()
+    /**
+     * Send a e-mail with shopping order.
+     */
+    private function sendEmail()
+    {
+        
+        $order = new Mage_Sales_Model_Order();
+        $incrementId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+        $order->loadByIncrementId($incrementId);
+        try
+        {
+            $order->sendNewOrderEmail();
+        } catch (Exception $ex) {
+            die($ex);
+        }
+        
+    }
+    
+    /**
+     * returns PagSeguro checkout configuration
+     * @return CheckoutStatus = 'LIGHTBOX' or 'PADRÃO'
+     */
+    private function getRedirectCheckout()
     {
         $idStore = Mage::app()->getStore()->getCode();
         Mage::log("ID_DA_LOJA:".$idStore);
@@ -156,13 +156,13 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
 
     }
 
-	/**
-	 * cancel order status
-	 */
+    /**
+     * cancel order status
+     */
     private function _canceledStatus($Order)
     {
         $Order->cancel();
         $Order->save();
     }
-	
+    
 }

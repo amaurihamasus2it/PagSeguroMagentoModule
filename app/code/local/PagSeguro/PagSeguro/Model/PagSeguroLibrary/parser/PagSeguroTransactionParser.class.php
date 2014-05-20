@@ -30,7 +30,7 @@ class PagSeguroTransactionParser extends PagSeguroServiceParser
      */
     public static function readSearchResult($str_xml)
     {
-	
+    
         $parser = new PagSeguroXmlParser($str_xml);
         $data = $parser->getResult('transactionSearchResult');
 
@@ -341,7 +341,7 @@ class PagSeguroTransactionParser extends PagSeguroServiceParser
      */
     private static function parseTransactionSummary($data)
     {
-		
+        
         $transactionSummary = new PagSeguroTransactionSummary();
 
         if (isset($data['type'])) {

@@ -4,9 +4,9 @@ class Updates
 {
 
     /*
-	 * Verify if exists 'pagseguro_sales_code', if doesn't reset the 'core_resource' value and 
-	 * creates the 'core_resource' and the 'pagseguro_sales_code' table automatically. 
-	 */
+     * Verify if exists 'pagseguro_sales_code', if doesn't reset the 'core_resource' value and 
+     * creates the 'core_resource' and the 'pagseguro_sales_code' table automatically. 
+     */
     public static function createTableModule($collection = null)
     {
         $table_prefix = (string)Mage::getConfig()->getTablePrefix();

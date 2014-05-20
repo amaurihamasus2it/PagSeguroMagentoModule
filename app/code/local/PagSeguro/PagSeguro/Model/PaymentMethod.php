@@ -226,8 +226,8 @@ class PagSeguro_PagSeguro_Model_PaymentMethod extends MethodAbstract
     }
 
     private function _addressConfig($fullAddress)
-    {	
-		require_once(dir(__FILE__).'/AddressConfig.php');
+    {    
+        require_once(dir(__FILE__).'/AddressConfig.php');
         return AddressConfig::trataEndereco($fullAddress);
     }
 
@@ -264,9 +264,9 @@ class PagSeguro_PagSeguro_Model_PaymentMethod extends MethodAbstract
         $PagSeguroAddress->setState($this->Shipping_Data['region']);
         $PagSeguroAddress->setStreet($street);
         $PagSeguroAddress->setNumber($number);
-        $PagSeguroAddress->setComplement($complement);	
+        $PagSeguroAddress->setComplement($complement);    
         $PagSeguroAddress->setDistrict($district);
-		
+        
         $PagSeguroShipping->setAddress($PagSeguroAddress);
 
         return $PagSeguroShipping;
@@ -399,18 +399,18 @@ class PagSeguro_PagSeguro_Model_PaymentMethod extends MethodAbstract
         }
         return $_file_exist;
     }
-	
-	/**
-	 *
-	 * remove all non-numeric characters from Postal Code.
-	 * @return fixedPostalCode
-	 * 
-	 */
-	public static function fixPostalCode($postalCode)
-	{
-		
-		return preg_replace("/[^0-9]/", "", $postalCode);
-		
-	}
-	
+    
+    /**
+     *
+     * remove all non-numeric characters from Postal Code.
+     * @return fixedPostalCode
+     * 
+     */
+    public static function fixPostalCode($postalCode)
+    {
+        
+        return preg_replace("/[^0-9]/", "", $postalCode);
+        
+    }
+    
 }

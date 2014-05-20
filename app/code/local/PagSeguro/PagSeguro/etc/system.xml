@@ -29,10 +29,10 @@
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
-			    			<comment>Informe o nome que deve ser apresentado para este meio de pagamento no checkout de sua loja.</comment>
+                            <comment>Informe o nome que deve ser apresentado para este meio de pagamento no checkout de sua loja.</comment>
                         </title>
                         
-						<email translate="label">
+                        <email translate="label">
                             <label>E-MAIL</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>03</sort_order>
@@ -41,7 +41,7 @@
                             <show_in_store>1</show_in_store>
                             <comment>N&#227;o tem conta no PagSeguro? Clique &lt;a href=&quot;https://pagseguro.uol.com.br/registration/registration.jhtml?ep=7&amp;tipo=cadastro#!vendedor&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt; e cadastre-se gr&#225;tis.</comment>
                         </email>
-						<token translate="label">
+                        <token translate="label">
                             <label>TOKEN</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>04</sort_order>
@@ -51,7 +51,7 @@
                             <comment>N&#227;o tem ou n&#227;o sabe seu token? Clique &lt;a href=&quot;https://pagseguro.uol.com.br/integracao/token-de-seguranca.jhtml&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt; para gerar um novo.</comment>
                         </token>
                         
-						<url translate="label">
+                        <url translate="label">
                             <label>URL DE REDIRECIONAMENTO</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>05</sort_order>
@@ -79,9 +79,9 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>Defina o charset de acordo com a codificação do seu sistema.</comment>
-						</charset>
-			                        
-						<log translate="label">
+                        </charset>
+                                    
+                        <log translate="label">
                             <label>LOG</label>
                             <frontend_type>select</frontend_type>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
@@ -92,7 +92,7 @@
                             <comment>Criar arquivo de log?</comment>
                         </log>
                         
-						<log_file translate="label">
+                        <log_file translate="label">
                             <label>DIRETÓRIO</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>09</sort_order>
@@ -111,8 +111,8 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>Selecione o tipo de checkout desejado.</comment>
-						</checkout>
-						
+                        </checkout>
+                        
                     </fields>
                 </pagseguro>
             </groups>
