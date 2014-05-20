@@ -103,7 +103,7 @@ class PagSeguro_PagSeguro_Model_PaymentMethod extends MethodAbstract
         if ($checkout == 'LIGHTBOX') {
             $code = $this->base64url_encode($payment_url);
             
-            return Mage::getUrl('pagseguro/payment/payment',array(
+            return Mage::getUrl('pagseguro/payment/payment', array(
                 '_secure' => true, 'type' => 'geral', 'code' => $code
             ));
         }
@@ -226,7 +226,7 @@ class PagSeguro_PagSeguro_Model_PaymentMethod extends MethodAbstract
     }
 
     private function _addressConfig($fullAddress)
-    {    
+    {
         require_once(dir(__FILE__).'/AddressConfig.php');
         return AddressConfig::trataEndereco($fullAddress);
     }
@@ -260,11 +260,11 @@ class PagSeguro_PagSeguro_Model_PaymentMethod extends MethodAbstract
 
         $PagSeguroAddress = new PagSeguroAddress();
         $PagSeguroAddress->setCity($this->Shipping_Data['city']);
-        $PagSeguroAddress->setPostalCode( self::fixPostalCode($this->Shipping_Data['postcode']) );
+        $PagSeguroAddress->setPostalCode(self::fixPostalCode($this->Shipping_Data['postcode']));
         $PagSeguroAddress->setState($this->Shipping_Data['region']);
         $PagSeguroAddress->setStreet($street);
         $PagSeguroAddress->setNumber($number);
-        $PagSeguroAddress->setComplement($complement);    
+        $PagSeguroAddress->setComplement($complement);
         $PagSeguroAddress->setDistrict($district);
         
         $PagSeguroShipping->setAddress($PagSeguroAddress);
@@ -412,5 +412,4 @@ class PagSeguro_PagSeguro_Model_PaymentMethod extends MethodAbstract
         return preg_replace("/[^0-9]/", "", $postalCode);
         
     }
-    
 }

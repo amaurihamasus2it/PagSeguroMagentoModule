@@ -78,7 +78,7 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
         $enabledOSC = false;
         $fileOSC = scandir(getcwd().'/app/code/local/DeivisonArthur');
         
-        if($fileOSC) {
+        if ($fileOSC) {
             $enabledOSC = Mage::helper('onepagecheckout')->isOnepageCheckoutEnabled();
         }
                 
@@ -95,20 +95,20 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
                 
                 $checkout = $this->getRedirectCheckout();
                 
-                if($checkout == 'LIGHTBOX') {
+                if ($checkout == 'LIGHTBOX') {
                     $retorno = $PagSeguroPaymentModel->getRedirectPaymentHtml($Order);
                     $this->_redirectUrl($retorno);
                 } else {
                     $this->_redirectUrl($PagSeguroPaymentModel->getRedirectPaymentHtml($Order));
                 }
                 
-                //after verify if the order was created, instantiates the sendEmail() method 
+                //after verify if the order was created, instantiates the sendEmail() method
                 $this->sendEmail();
                 
             } catch (Exception $ex) {
                 Mage::log($ex->getMessage());
                 Mage::getSingleton('core/session')->addError(self::MENSAGEM);
-                if($checkout == 'PADRAO') {
+                if ($checkout == 'PADRAO') {
                     $this->_redirectUrl(Mage::getUrl() . $feedback);
                 }
                 $this->_canceledStatus($Order);
@@ -116,7 +116,7 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
             
         } else {
             Mage::getSingleton('core/session/canceled')->addError(self::MENSAGEM);
-            if($checkout == 'PADRAO') {
+            if ($checkout == 'PADRAO') {
                 $this->_redirectUrl(Mage::getUrl() . $feedback);
             }
             $this->_canceledStatus($Order);
@@ -135,8 +135,7 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
         $order = new Mage_Sales_Model_Order();
         $incrementId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
         $order->loadByIncrementId($incrementId);
-        try
-        {
+        try {
             $order->sendNewOrderEmail();
         } catch (Exception $ex) {
             die($ex);
@@ -164,5 +163,4 @@ class PagSeguro_PagSeguro_PaymentController extends FrontAction
         $Order->cancel();
         $Order->save();
     }
-    
 }
