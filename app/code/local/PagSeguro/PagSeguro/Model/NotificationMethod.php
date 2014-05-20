@@ -72,16 +72,12 @@ class PagSeguro_PagSeguro_Model_NotificationMethod extends MethodAbstract
      */
     private function _createNotification()
     {
-//        $this->notificationType = (
-//            isset($this->post['notificationType']) &&
-//            trim($this->post['notificationType']) != "") ? $this->post['notificationType'] : null;
-//        $this->notificationCode = (
-//            isset($this->post['notificationCode']) &&
-//            trim($this->post['notificationCode']) != "") ? $this->post['notificationCode'] : null;
-        
-        $this->notificationType = 'transaction';
-        $this->notificationCode = 'BA02B8-445CCF5CCF31-622472EF9284-76A9F1';
-
+        $this->notificationType = (
+            isset($this->post['notificationType']) &&
+            trim($this->post['notificationType']) != "") ? $this->post['notificationType'] : null;
+        $this->notificationCode = (
+            isset($this->post['notificationCode']) &&
+            trim($this->post['notificationCode']) != "") ? $this->post['notificationCode'] : null;
     }
     
     /**
