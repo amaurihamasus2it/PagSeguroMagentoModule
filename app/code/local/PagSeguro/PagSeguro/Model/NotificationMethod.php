@@ -159,7 +159,7 @@ class PagSeguro_PagSeguro_Model_NotificationMethod extends MethodAbstract
         $read= Mage::getSingleton('core/resource')->getConnection('core_read');
         
         $value = $read->query(
-        "SELECT `order_id` FROM `" . $table_prefix . "pagseguro_sales_code` WHERE `order_id` = $this->reference"
+            "SELECT `order_id` FROM `" . $table_prefix . "pagseguro_sales_code` WHERE `order_id` = $this->reference"
         );
         
         $row = $value->fetch();
